@@ -1,0 +1,223 @@
+/*  
+######################   
+	Feedly 
+###################### 
+*/
+
+.single-post .inner-content {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.page-id-512 .content,
+.page-id-522 .content,
+.page-id-516 .content,
+.page-id-514 .content,
+.page-id-518 .content,
+.page-id-498 .content,
+.page-id-500 .content,
+.page-id-520 .content,
+.page-id-510 .content,
+.page-id-508 .content,
+.page-id-506 .content,
+.page-id-504 .content,
+.page-id-502 .content {
+    margin-top: 0 !important;
+}
+
+.page-id-512 main,
+.page-id-522 main,
+.page-id-516 main,
+.page-id-514 main,
+.page-id-518 main,
+.page-id-498 main,
+.page-id-500 main,
+.page-id-520 main,
+.page-id-510 main,
+.page-id-508 main,
+.page-id-506 main,
+.page-id-504 main,
+.page-id-502 main, 
+.single-post main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.feedly_multiple {
+    margin-left: 0;
+}
+
+.page-id-512 .entry-content > p, .page-id-512 .article-header, .page-id-512 #comments, .page-id-512 #sidebar1, .page-id-512 .byline,
+.page-id-522 .entry-content > p, .page-id-522 .article-header, .page-id-522 #comments, .page-id-522 #sidebar1, .page-id-522 .byline,
+.page-id-516 .entry-content > p, .page-id-516 .article-header, .page-id-516 #comments, .page-id-516 #sidebar1, .page-id-516 .byline,
+.page-id-514 .entry-content > p, .page-id-514 .article-header, .page-id-514 #comments, .page-id-514 #sidebar1, .page-id-514 .byline,
+.page-id-518 .entry-content > p, .page-id-518 .article-header, .page-id-518 #comments, .page-id-518 #sidebar1, .page-id-518 .byline,
+.page-id-498 .entry-content > p, .page-id-498 .article-header, .page-id-498 #comments, .page-id-498 #sidebar1, .page-id-498 .byline,
+.page-id-500 .entry-content > p, .page-id-500 .article-header, .page-id-500 #comments, .page-id-500 #sidebar1, .page-id-500 .byline,
+.page-id-520 .entry-content > p, .page-id-520 .article-header, .page-id-520 #comments, .page-id-520 #sidebar1, .page-id-520 .byline,
+.page-id-510 .entry-content > p, .page-id-510 .article-header, .page-id-510 #comments, .page-id-510 #sidebar1, .page-id-510 .byline,
+.page-id-508 .entry-content > p, .page-id-508 .article-header, .page-id-508 #comments, .page-id-508 #sidebar1, .page-id-508 .byline,
+.page-id-506 .entry-content > p, .page-id-506 .article-header, .page-id-506 #comments, .page-id-506 #sidebar1, .page-id-506 .byline,
+.page-id-504 .entry-content > p, .page-id-504 .article-header, .page-id-504 #comments, .page-id-504 #sidebar1, .page-id-504 .byline,
+.page-id-502 .entry-content > p, .page-id-502 .article-header, .page-id-502 #comments, .page-id-502 #sidebar1, .page-id-502 .byline,
+.single-post .article-header, .single-post #comments, .single-post #sidebar1, .single-post .byline, .single-post .entry-content > img,
+.single-post .tags, .single-post .pageTitle, .single-post .flare-horizontal,
+.feedly_multiple .wp-block-latest-posts__featured-image, .feedly_multiple time {
+    display: none;
+}
+
+.single-post .entry-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.single-post .entry-content > .single_post_info_container {
+    margin: 10px 0;
+}
+
+.single-post .entry-content > p:nth-child(2) .widescreen, .single-post .comments_section_header,
+.single-post .entry-content > div:nth-child(2):not(.single_post_info_container),
+.single-post .single-image-container {
+    left: -10px;
+    width: calc(100% + 20px);
+    position: relative;
+}
+
+.single-post .entry-content > p:nth-child(2) .widescreen,
+.single-post .entry-content > div:nth-child(2):not(.single_post_info_container),
+.single-post .single-image-container {
+    border-top: 3px solid #b1b3b9;
+    border-bottom: 3px solid #b1b3b9;
+}
+
+.entry-content img {
+    width: 100%;
+}
+
+aside ul li .img-link > img {
+    width: auto;
+    padding: 10px 0;
+}
+
+.single-post .single_post_info_container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 10px auto;
+    margin-bottom: 10px;
+}
+
+.single-post .single_post_title {
+    font-size: 14px;
+    color: #ba246f;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.single-post .single_post_date_comments {
+    font-size: 13px;
+    color: #909090;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.single-post .single_post_saved {
+    font-size: 14px;
+    color: #687d98;
+    grid-area: 1 / 3 / 2 / 4;
+    justify-self: end;
+}
+
+.single-post .comments_section_header {
+    display: flex;
+    font-size: 24px;
+    color: #687d98;
+    padding-left: 10px;
+    border-top: 1px solid #b1b3b9;
+    border-bottom: 1px solid #b1b3b9;
+}
+
+.single-post .comments_section_header > div {
+    display: flex;
+    padding: 18px 36px 18px 0;
+}
+
+.single-post .comments_section_input_container {
+    margin-top: 24px;
+    width: 100%;
+    position: relative;
+}
+
+.single-post .comments_section_input_container i {
+    font-size: 24px;
+    color: #687d98;
+    position: absolute;
+    right: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 24px;
+}
+
+.single-post .comments_section_input_container input {
+    border: 1px solid #b1b3b9;
+    border-radius: 15px;
+    color: #b1b3b9;
+    background-color: #f1f3f2;
+    padding: 10px;
+    width: 100%;
+}
+
+.feedly_multiple li {
+    display: grid;
+    grid-template-rows: 10px auto auto 10px;
+    grid-template-columns: 25px 100px 10px auto 10px;
+}
+
+.feedly_multiple .feedly_image_bg {
+    grid-area: 2 / 2 / 4 / 3;
+    position: relative;
+    background-color: #000;
+    height: 70px;
+    border: 3px solid #395288;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.feedly_multiple .feedly_image_bg img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.feedly_multiple .blank_photo {
+    background-color: #000;
+}
+
+.feedly_multiple li a:not(.feedly_image_bg) {
+    grid-area: 2 / 4 / 3 / 5;
+    align-self: end;
+    justify-self: start;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 5px;
+    color: #ac266e;
+}
+
+.feedly_multiple li .feedly_date_comments {
+    grid-area: 3 / 4 / 4 / 5;
+    justify-self: start;
+    padding-left: 3px;
+    font-size: 13px;
+    margin-top: 5px;
+    color: #7f7f7f;
+    height: 13px;
+}
+
+.feedly_multiple li:nth-child(even) {
+    background: #f1f3f2;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
